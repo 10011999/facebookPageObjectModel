@@ -1,11 +1,9 @@
 package com.bridgelabz.extentreport;
 
 import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-import org.testng.IReporter;
-import org.testng.ISuite;
-import org.testng.ISuiteResult;
-import org.testng.ITestContext;
+import org.testng.*;
 import org.testng.xml.XmlSuite;
 
 import java.io.File;
@@ -14,7 +12,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-public class ExtentReportListener implements IReporter {
+public class ExtentReportListener implements IReporter  {
     private ExtentReports extent;
 
     /**
